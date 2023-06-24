@@ -1,0 +1,32 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+.app-container button {
+  background-color: #474741;
+  border-radius: 8px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 10px;
+}
+.app-container button:hover {
+  background-color:#edf19e ;
+border-radius:5px;
+ }
+ .app-container p {
+  font-weight: 700;
+ }
+.person-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+.person-container img {
+width: auto;
+height: 300px;
+}
